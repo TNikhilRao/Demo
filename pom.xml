@@ -7,7 +7,8 @@
 	<groupId>com.demo.jenkins</groupId>
 	<artifactId>DemoForJenkins</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<!-- <packaging>jar</packaging> -->
+	<packaging>war</packaging>
 
 	<name>DemoForJenkins</name>
 	<description>Demo project for Spring Boot</description>
@@ -93,6 +94,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-deploy-plugin</artifactId>
+				<version>X.Y</version>
 				<configuration>
 					<skip>true</skip>
 				</configuration>
